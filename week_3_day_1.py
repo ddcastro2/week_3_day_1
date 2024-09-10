@@ -50,14 +50,18 @@
 # # Review
 # create variables for the following :
 # 1. age
+age = 54
 # 2. name
+name = "Harold"
 # 3. song
+song = "Bad Guy"
 # 4. food
+food = "popcorn"
 # 5. number
-
+number = 560000
 
 # #now include the variables you just made print in the following...
-
+print("Once upon a time, there was a " + str(age) + " year old coder named " + name + ". " + name + " liked to hum the song " + song + " while coding. It was so annoying that their teamates would throw " + food + " until " + name + " would stop singing. Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code every day. Maybe " + song + " was " + name +"'s secret power?")
 
 # Once upon a time, there was a [age] old coder named [name].
 
@@ -65,7 +69,16 @@
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
 
 
-# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
+# Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?\
+number1 = 100
+number2 = 200
+number3 = 300
+number4 = 400
+number5 = 500
+#put them all into a sentence
+# print("I have " + str(number1) + " cats, " + str(number2) + " classmates, " + str(number3) + " bags of rice, " + str(number4) + " bags of cat kibble, and " + str(number5) + " lines of code.")
+#f strings
+print(f"{number1},{number2},{number3},{number4},{number5}")
 ##########################################################################################
 
 
